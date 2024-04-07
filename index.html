@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Stylish Portfolio - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<script>
+    function countdown() {
+        // Set the date we're counting down to
+        var countDownDate = new Date("May 1 , 2024 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    }
+
+    countdown()
+
+</script>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Support ACP Extension</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about">About ACP</a></li>
+            <li class="sidebar-nav-item"><a href="#services">ACP Benefits</a></li>
+            <li class="sidebar-nav-item"><a href="#support">Support</a></li>
+        </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1" style="color: #fff;">#SaveTheACP</h1>
+            <h4 class="mb-3" style="color: #e3e3e3;"><i class="fa-solid fa-wifi"
+                    style="color: #3498db;"></i>&nbsp;<em>Stand Up for Affordable Internet Access for All</em></h4>
+
+            <h1 class="mb-1" style="color: #f7931a;" id="countdown"></h1>
+            <h2 class="mb-5" style="color: #fff;">Support the ACP Extension Act and Bridge the Digital Divide</h2>
+            <a class="btn btn-primary btn-xl" href="#support">
+                <h3 style="color:#001f3f">Support ACP Extension</h3>
+            </a>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-12">
+                    <h1 style="color: #001f3f;">A Necessity in the Digital Age</h1>
+                    <p class="lead mb-5">
+                        In today's society, where the digital landscape shapes how we learn, work, connect, and live,
+                        the internet is no longer a luxury but a necessity. The COVID-19 pandemic has emphasized the
+                        critical need for digital access, ensuring educational continuity, telehealth access, and the
+                        ability to work from home. The ACP has played a crucial role in ensuring that economic status
+                        does not bar access to these essential services.
+                        As the digital divide continues to widen, the Affordable Connectivity Program Extension Act of
+                        2024 represents a crucial step towards promoting digital equity and ensuring that all Americans
+                        have access to the opportunities and resources the internet provides
+                    </p>
+                </div>
+
+                <div class="col-lg-12">
+                    <h1 style="color: #001f3f;">The Affordable Connectivity Program Extension Act of 2024</h1>
+                    <p class="lead mb-5">
+                        To address this issue, the Affordable Connectivity Program Extension Act of 2024, has been
+                        introduced. This legislation aims to provide $7 billion in additional funding for the ACP,
+                        ensuring the program's continuity and preventing millions of households from losing their
+                        internet access.
+                        <br>
+                        The proposed extension has garnered widespread support from various organizations, including the
+                        National Association of Counties (NACo), the National Association of Regional Councils (NARC),
+                        and the Communications Workers of America, who recognize the ACP's vital role in promoting
+                        digital equity and enabling access to essential services.
+                        <br>
+                        We urge all citizens to voice their support for the Affordable Connectivity Program Extension
+                        Act of 2024. Together, we can ensure that the digital divide is bridged, and no one is left
+                        behind in the digital age. Your voice can make a difference in securing affordable internet
+                        access for millions of households across the nation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services-->
+    <section class="content-section bg-primary text-white text-center" id="services">
+        <div class="container px-4 px-lg-5">
+
+            <div class="content-section-heading">
+                <h2 class="mb-5">The Affordable Connectivity Program <br>Bridging the Digital Divide</h2>
+                <!-- <p class="lead mb-5">
+                    The Affordable Connectivity Program <strong>(ACP)</strong> has been a game-changer for millions
+                    of households across the United States,
+                    providing affordable internet access and bridging the digital divide.
+                    With discounts of up to <strong>$30 per month</strong> for broadband internet service and up to
+                    <strong>$75</strong> per month for households on Tribal lands,
+                    the <strong>ACP has enabled over 22 million households,
+                        including 960,000 veterans and 4.6 million seniors</strong>, to access remote work, online
+                    education, healthcare services, and the broader digital world.
+                    <strong>1 in 6 American households depend on this program for daily life</strong>.
+                </p> -->
+            </div>
+
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                    <h4><strong>1 in 6 American households depends on this program</strong></h4>
+                    <!-- <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p> -->
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-tags"></i></span>
+                    <h4><strong>$30 to $75 discount per month</strong></h4>
+                    <!-- <p class="text-faded mb-0">Looks great on any screen size!</p> -->
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3">
+                        <img src="assets/img/veteran_2.png" style="width: 80px;">
+                    </span>
+                    <h4><strong>960,000 veterans use internet through ACP</strong></h4>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i
+                            class="fa-solid fa-laptop-file"></i></span>
+                    <h4><strong>Millions of Remote work & online education users</strong></h4>
+                    <!-- <p class="text-faded mb-0">
+                        Millions of users
+                        <i class="fas fa-heart"></i>
+                        Start Bootstrap!
+                    </p> -->
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-laptop"></i><i
+                            class="fa-solid fa-stethoscope"></i></span>
+                    <h4><strong>Users of healthcare services</strong></h4>
+                    <!-- <p class="text-faded mb-0">I mustache you a question...</p> -->
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section text-white" style="background-color: #fff;" id="support">
+        <div class="container px-4 px-lg-5 text-center">
+            <form>
+                
+                <h1 class="h3 mb-3 fw-normal" style="color: #001f3f;"><strong>Support ACP Extension by Signing here</strong></h1>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Full Name">
+                  <label for="floatingInput" style="color: #3498db;">Full Name</label>
+                </div>
+                <div class="form-floating mt-2">
+                  <input type="text" class="form-control" id="floatingPassword" placeholder="City">
+                  <label for="floatingPassword" style="color: #3498db;">Age</label>
+                </div>  
+                <div class="form-floating mt-2">
+                    <input type="text" class="form-control" id="county" placeholder="City">
+                    <label for="floatingPassword" style="color: #3498db;">County</label>
+                  </div>            
+                <button class="w-100 btn btn-lg btn-primary mt-3" type="submit" style="color: #001f3f;"><strong>I Support ACP Extension</strong></button>
+              </form>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container px-4 px-lg-5">
+            <p class="text-muted small mb-0">Copyright &copy; Your Website 2024</p>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
