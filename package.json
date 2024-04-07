@@ -1,11 +1,24 @@
 {
-  "name": "startbootstrap-stylish-portfolio-gh-pages",
+  "name": "acp_site",
   "version": "1.0.0",
-  "description": "",
+  "description": "support acp extension",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thein17/acp.git"
+  },
+  "keywords": [
+    "acp",
+    "extension",
+    "support"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thein17/acp/issues"
+  },
+  "homepage": "https://github.com/thein17/acp#readme"
 }
